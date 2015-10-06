@@ -1,0 +1,301 @@
+body, html {
+  width:100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+/*Background*/
+
+#bg1 {
+  background-image: url("yoda picture.jpg");
+}
+
+#bg2 {
+  background-color: #bdb2ac;
+}
+
+#bg3 {
+  background-color: #80b0b0;
+}
+
+.background {
+  height:100%;
+  width: 100%;
+  background-size: cover;
+  float: left;
+}
+
+/*Headtext*/ 
+h1,h2 {
+  color: white;
+  text-align: center;
+  font-family: helvetica;
+}
+
+/*Front page*/
+
+.window {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#frontpage {
+  width:100%;
+  height:100%;
+}
+
+#blue {
+  background-color: #80b0b0;
+}
+
+#beige {
+  background-color: #bdb2ac;
+}
+
+#grey {
+  background-color: #979998;
+}
+
+#green {
+  background-color: #9fac90;  
+}
+
+/*BLUE BOX*/
+
+.box {
+  width:25%;
+  height: 25%;
+  float:left;
+}
+
+#bnr1 { background: #6e9695;}
+#bnr2 { background: #80b0b0;}
+#bnr3 { background: #5c7b7d;}
+#bnr4 { background: #95c7c8;}
+
+#bnr5 { background: #5c7b7d;}
+#bnr6 { background: #95c7c8;}
+#bnr7 { background: #80b0b0;}
+#bnr8 { background: #6e9695;}
+
+#bnr9 { background: #95c7c8;}
+#bnr10 { background: #6e9695;}
+#bnr11 { background: #5c7b7d;}
+#bnr12 { background: #80b0b0;}
+
+#bnr13 { background: #6e9695;}
+#bnr14 { background: #5c7b7d;}
+#bnr15 { background: #80b0b0;}
+#bnr16 { background: #95c7c8;}
+
+
+#bnr1{
+  animation:color1 25s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes color1 {
+  0%{ background: #6e9695; }
+  25%{ background: #95c7c8; }
+  50%{ background: #80b0b0; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #6e9695; }
+}
+
+#bnr2{
+  animation:color2 15s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes color2 {
+  0%{ background: #80b0b0; }
+  25%{ background: #6e9695; }
+  50%{ background: #95c7c8; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #80b0b0; }
+}
+
+#bnr3{
+  animation:color3 10s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes color3 {
+  0%{ background: #5c7b7d; }
+  25%{ background: #80b0b0; }
+  50%{ background: #6e9695; }
+  75%{ background: #95c7c8; }
+  100%{ background: #5c7b7d; }
+}
+
+#bnr4{
+  animation:color4 14s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes color4 {
+  0%{ background: #95c7c8; }
+  25%{ background: #5c7b7d; }
+  50%{ background: #6e9695; }
+  75%{ background: #80b0b0; }
+  100%{ background: #95c7c8; }
+}
+
+#bnr5{
+  animation:color5 12s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes color5 {
+  0%{ background: #80b0b0; }
+  25%{ background: #6e9695; }
+  50%{ background: #95c7c8; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #80b0b0; }
+}
+
+#bnr6{
+  animation:color6 17s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes color6 {
+  0%{ background: #5c7b7d; }
+  25%{ background: #80b0b0; }
+  50%{ background: #6e9695; }
+  75%{ background: #95c7c8; }
+  100%{ background: #5c7b7d; }
+}
+
+#bnr7{
+  animation:color7 14s ease-out infinite;
+  animation-delay:0s;
+
+}
+@keyframes color7 {
+  0%{ background: #6e9695; }
+  25%{ background: #95c7c8; }
+  50%{ background: #80b0b0; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #6e9695; }
+}
+
+#bnr8{
+  animation:color8 15s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes color8 {
+  0%{ background: #95c7c8; }
+  25%{ background: #5c7b7d; }
+  50%{ background: #6e9695; }
+  75%{ background: #80b0b0; }
+  100%{ background: #95c7c8; }
+}
+
+
+#bnr9{
+  animation:color9 18s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes color9 {
+  0%{ background: #6e9695; }
+  25%{ background: #95c7c8; }
+  50%{ background: #80b0b0; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #6e9695; }
+}
+
+#bnr10{
+  animation:color10 16s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes color10 {
+  0%{ background: #80b0b0; }
+  25%{ background: #6e9695; }
+  50%{ background: #5c7b7d; }
+  75%{ background: #6e9695; }
+  100%{ background: #80b0b0; }
+}
+
+#bnr11{
+  animation:color11 20s ease-out infinite;
+  animation-delay:1s;
+
+}
+@keyframes color11 {
+  0%{ background: #5c7b7d; }
+  25%{ background: #80b0b0; }
+  50%{ background: #6e9695; }
+  75%{ background: #95c7c8; }
+  100%{ background: #5c7b7d; }
+}
+
+#bnr12{
+  animation:color12 19s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes color12 {
+  0%{ background: #95c7c8; }
+  25%{ background: #5c7b7d; }
+  50%{ background: #6e9695; }
+  75%{ background: #80b0b0; }
+  100%{ background: #95c7c8; }
+}
+
+#bnr13{
+  animation:color13 15s ease-out infinite;
+  animation-delay:0s;
+
+}
+@keyframes color13 {
+  0%{ background: #6e9695; }
+  25%{ background: #95c7c8; }
+  50%{ background: #80b0b0; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #6e9695; }
+}
+
+#bnr14{
+  animation:color14 14s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes color14 {
+  0%{ background: #80b0b0; }
+  25%{ background: #6e9695; }
+  50%{ background: #5c7b7d; }
+  75%{ background: #6e9695; }
+  100%{ background: #80b0b0; }
+}
+
+#bnr15{
+  animation:color15 18s ease-out infinite;
+  animation-delay:1s;
+
+}
+@keyframes color15 {
+  0%{ background: #5c7b7d; }
+  25%{ background: #80b0b0; }
+  50%{ background: #6e9695; }
+  75%{ background: #95c7c8; }
+  100%{ background: #5c7b7d; }
+}
+
+#bnr16{
+  animation:color16 22s ease-out infinite;
+  animation-delay:0s;
+
+}
+@keyframes color16 {
+  0%{ background: #95c7c8; }
+  25%{ background: #5c7b7d; }
+  50%{ background: #6e9695; }
+  75%{ background: #80b0b0; }
+  100%{ background: #95c7c8; }
+}
+
