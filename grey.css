@@ -1,0 +1,229 @@
+#grey .nr1 { background: #afb3b2;}
+#grey .nr2 { background: #7d7f7e;}
+#grey .nr3 { background: #666867;}
+#grey .nr4 { background: #979998;}
+
+#grey .nr5 { background: #666867;}
+#grey .nr6 { background: #979998;}
+#grey .nr7 { background: #7d7f7e;}
+#grey .nr8 { background: #afb3b2;}
+
+#grey .nr9 { background: #979998;}
+#grey .nr10 { background: #afb3b2;}
+#grey .nr11 { background: #666867;}
+#grey .nr12 { background: #7d7f7e;}
+
+#grey .nr13 { background: #afb3b2;}
+#grey .nr14 { background: #666867;}
+#grey .nr15 { background: #7d7f7e;}
+#grey .nr16 { background: #979998;}
+
+
+#grey .nr1{
+  animation:ccolor1 25s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes ccolor1 {
+  0%{ background: #afb3b2; }
+  25%{ background: #979998; }
+  50%{ background: #7d7f7e; }
+  75%{ background: #666867; }
+  100%{ background: #afb3b2; }
+}
+
+#grey .nr2{
+  animation:ccolor2 15s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes ccolor2 {
+  0%{ background: #7d7f7e; }
+  25%{ background: #afb3b2; }
+  50%{ background: #979998; }
+  75%{ background: #666867; }
+  100%{ background: #7d7f7e; }
+}
+
+#grey .nr3{
+  animation:ccolor3 10s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes ccolor3 {
+  0%{ background: #666867; }
+  25%{ background: #7d7f7e; }
+  50%{ background: #afb3b2; }
+  75%{ background: #979998; }
+  100%{ background: #666867; }
+}
+
+#grey .nr4{
+  animation:ccolor4 14s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes ccolor4 {
+  0%{ background: #979998; }
+  25%{ background: #666867; }
+  50%{ background: #afb3b2; }
+  75%{ background: #7d7f7e; }
+  100%{ background: #979998; }
+}
+
+#grey .nr5{
+  animation:ccolor5 12s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes ccolor5 {
+  0%{ background: #7d7f7e; }
+  25%{ background: #afb3b2; }
+  50%{ background: #979998; }
+  75%{ background: #666867; }
+  100%{ background: #7d7f7e; }
+}
+
+#grey .nr6{
+  animation:ccolor6 17s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes ccolor6 {
+  0%{ background: #666867; }
+  25%{ background: #7d7f7e; }
+  50%{ background: #afb3b2; }
+  75%{ background: #979998; }
+  100%{ background: #666867; }
+}
+
+#grey .nr7{
+  animation:ccolor7 14s ease-out infinite;
+  animation-delay:0s;
+
+}
+@keyframes ccolor7 {
+  0%{ background: #afb3b2; }
+  25%{ background: #979998; }
+  50%{ background: #7d7f7e; }
+  75%{ background: #666867; }
+  100%{ background: #afb3b2; }
+}
+
+#grey .nr8{
+  animation:ccolor8 15s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes ccolor8 {
+  0%{ background: #979998; }
+  25%{ background: #666867; }
+  50%{ background: #afb3b2; }
+  75%{ background: #7d7f7e; }
+  100%{ background: #979998; }
+}
+
+
+#grey .nr9{
+  animation:ccolor9 18s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes ccolor9 {
+  0%{ background: #afb3b2; }
+  25%{ background: #979998; }
+  50%{ background: #7d7f7e; }
+  75%{ background: #666867; }
+  100%{ background: #afb3b2; }
+}
+
+#grey .nr10{
+  animation:ccolor10 16s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes ccolor10 {
+  0%{ background: #7d7f7e; }
+  25%{ background: #afb3b2; }
+  50%{ background: #666867; }
+  75%{ background: #afb3b2; }
+  100%{ background: #7d7f7e; }
+}
+
+#grey .nr11{
+  animation:ccolor11 20s ease-out infinite;
+  animation-delay:1s;
+
+}
+@keyframes ccolor11 {
+  0%{ background: #666867; }
+  25%{ background: #7d7f7e; }
+  50%{ background: #afb3b2; }
+  75%{ background: #979998; }
+  100%{ background: #666867; }
+}
+
+#grey .nr12{
+  animation:ccolor12 19s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes ccolor12 {
+  0%{ background: #979998; }
+  25%{ background: #666867; }
+  50%{ background: #afb3b2; }
+  75%{ background: #7d7f7e; }
+  100%{ background: #979998; }
+}
+
+#grey .nr13{
+  animation:ccolor13 15s ease-out infinite;
+  animation-delay:0s;
+
+}
+@keyframes ccolor13 {
+  0%{ background: #afb3b2; }
+  25%{ background: #979998; }
+  50%{ background: #7d7f7e; }
+  75%{ background: #666867; }
+  100%{ background: #afb3b2; }
+}
+
+#grey .nr14{
+  animation:ccolor14 14s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes ccolor14 {
+  0%{ background: #7d7f7e; }
+  25%{ background: #afb3b2; }
+  50%{ background: #666867; }
+  75%{ background: #afb3b2; }
+  100%{ background: #7d7f7e; }
+}
+
+#grey .nr15{
+  animation:ccolor15 18s ease-out infinite;
+  animation-delay:1s;
+
+}
+@keyframes ccolor15 {
+  0%{ background: #666867; }
+  25%{ background: #7d7f7e; }
+  50%{ background: #afb3b2; }
+  75%{ background: #979998; }
+  100%{ background: #666867; }
+}
+
+#grey .nr16{
+  animation:ccolor16 22s ease-out infinite;
+  animation-delay:0s;
+
+}
+@keyframes ccolor16 {
+  0%{ background: #979998; }
+  25%{ background: #666867; }
+  50%{ background: #afb3b2; }
+  75%{ background: #7d7f7e; }
+  100%{ background: #979998; }
+}

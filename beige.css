@@ -1,0 +1,229 @@
+#beige .nr1 { background: #a19893;}
+#beige .nr2 { background: #6d6865;}
+#beige .nr3 { background: #8a837d;}
+#beige .nr4 { background: #bdb2ac;}
+
+#beige .nr5 { background: #8a837d;}
+#beige .nr6 { background: #bdb2ac;}
+#beige .nr7 { background: #6d6865;}
+#beige .nr8 { background: #a19893;}
+
+#beige .nr9 { background: #bdb2ac;}
+#beige .nr10 { background: #a19893;}
+#beige .nr11 { background: #8a837d;}
+#beige .nr12 { background: #6d6865;}
+
+#beige .nr13 { background: #a19893;}
+#beige .nr14 { background: #8a837d;}
+#beige .nr15 { background: #6d6865;}
+#beige .nr16 { background: #bdb2ac;}
+
+
+#beige .nr1{
+  animation:bcolor1 25s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes bcolor1 {
+  0%{ background: #a19893; }
+  25%{ background: #bdb2ac; }
+  50%{ background: #6d6865; }
+  75%{ background: #8a837d; }
+  100%{ background: #a19893; }
+}
+
+#beige .nr2{
+  animation:bcolor2 15s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes bcolor2 {
+  0%{ background: #6d6865; }
+  25%{ background: #a19893; }
+  50%{ background: #bdb2ac; }
+  75%{ background: #8a837d; }
+  100%{ background: #6d6865; }
+}
+
+#beige .nr3{
+  animation:bcolor3 10s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes bcolor3 {
+  0%{ background: #8a837d; }
+  25%{ background: #6d6865; }
+  50%{ background: #a19893; }
+  75%{ background: #bdb2ac; }
+  100%{ background: #8a837d; }
+}
+
+#beige .nr4{
+  animation:bcolor4 14s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes bcolor4 {
+  0%{ background: #bdb2ac; }
+  25%{ background: #8a837d; }
+  50%{ background: #a19893; }
+  75%{ background: #6d6865; }
+  100%{ background: #bdb2ac; }
+}
+
+#beige .nr5{
+  animation:bcolor5 12s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes bcolor5 {
+  0%{ background: #6d6865; }
+  25%{ background: #a19893; }
+  50%{ background: #bdb2ac; }
+  75%{ background: #8a837d; }
+  100%{ background: #6d6865; }
+}
+
+#beige .nr6{
+  animation:bcolor6 17s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes bcolor6 {
+  0%{ background: #8a837d; }
+  25%{ background: #6d6865; }
+  50%{ background: #a19893; }
+  75%{ background: #bdb2ac; }
+  100%{ background: #8a837d; }
+}
+
+#beige .nr7{
+  animation:bcolor7 14s ease-out infinite;
+  animation-delay:0s;
+
+}
+@keyframes bcolor7 {
+  0%{ background: #a19893; }
+  25%{ background: #bdb2ac; }
+  50%{ background: #6d6865; }
+  75%{ background: #8a837d; }
+  100%{ background: #a19893; }
+}
+
+#beige .nr8{
+  animation:bcolor8 15s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes bcolor8 {
+  0%{ background: #bdb2ac; }
+  25%{ background: #8a837d; }
+  50%{ background: #a19893; }
+  75%{ background: #6d6865; }
+  100%{ background: #bdb2ac; }
+}
+
+
+#beige .nr9{
+  animation:bcolor9 18s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes bcolor9 {
+  0%{ background: #a19893; }
+  25%{ background: #bdb2ac; }
+  50%{ background: #6d6865; }
+  75%{ background: #8a837d; }
+  100%{ background: #a19893; }
+}
+
+#beige .nr10{
+  animation:bcolor10 16s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes bcolor10 {
+  0%{ background: #6d6865; }
+  25%{ background: #a19893; }
+  50%{ background: #8a837d; }
+  75%{ background: #a19893; }
+  100%{ background: #6d6865; }
+}
+
+#beige .nr11{
+  animation:bcolor11 20s ease-out infinite;
+  animation-delay:1s;
+
+}
+@keyframes bcolor11 {
+  0%{ background: #8a837d; }
+  25%{ background: #6d6865; }
+  50%{ background: #a19893; }
+  75%{ background: #bdb2ac; }
+  100%{ background: #8a837d; }
+}
+
+#beige .nr12{
+  animation:bcolor12 19s ease-out infinite;
+  animation-delay:2s;
+
+}
+@keyframes bcolor12 {
+  0%{ background: #bdb2ac; }
+  25%{ background: #8a837d; }
+  50%{ background: #a19893; }
+  75%{ background: #6d6865; }
+  100%{ background: #bdb2ac; }
+}
+
+#beige .nr13{
+  animation:bcolor13 15s ease-out infinite;
+  animation-delay:0s;
+
+}
+@keyframes bcolor13 {
+  0%{ background: #a19893; }
+  25%{ background: #bdb2ac; }
+  50%{ background: #6d6865; }
+  75%{ background: #8a837d; }
+  100%{ background: #a19893; }
+}
+
+#beige .nr14{
+  animation:bcolor14 14s ease-out infinite;
+  animation-delay:3s;
+
+}
+@keyframes bcolor14 {
+  0%{ background: #6d6865; }
+  25%{ background: #a19893; }
+  50%{ background: #8a837d; }
+  75%{ background: #a19893; }
+  100%{ background: #6d6865; }
+}
+
+#beige .nr15{
+  animation:bcolor15 18s ease-out infinite;
+  animation-delay:1s;
+
+}
+@keyframes bcolor15 {
+  0%{ background: #8a837d; }
+  25%{ background: #6d6865; }
+  50%{ background: #a19893; }
+  75%{ background: #bdb2ac; }
+  100%{ background: #8a837d; }
+}
+
+#beige .nr16{
+  animation:bcolor16 22s ease-out infinite;
+  animation-delay:0s;
+
+}
+@keyframes bcolor16 {
+  0%{ background: #bdb2ac; }
+  25%{ background: #8a837d; }
+  50%{ background: #a19893; }
+  75%{ background: #6d6865; }
+  100%{ background: #bdb2ac; }
+}
