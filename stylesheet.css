@@ -3,38 +3,68 @@
 @import "grey.css";
 @import "green.css";
 
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
 body, html {
   width:100%;
   height: 100%;
   margin:0;
   padding:0;
 }
-/*Background*/
 
-#bg1 {
-  background-image: url("yoda picture.jpg");
+body {
+  margin-top: 100%;
 }
 
-#bg2 {
-  background-color: #bdb2ac;
-}
-
-#bg3 {
-  background-color: #80b0b0;
-}
-
-.background {
-  height:100%;
-  width: 100%;
-  background-size: cover;
-  float: left;
-}
-
-/*Headtext*/ 
-h1,h2 {
+/*HEADLINES*/ 
+h1 {
   color: white;
+  width:100%;
   text-align: center;
-  font-family: helvetica;
+  position: absolute;
+  letter-spacing: 5px;
+  font-size: 80px;
+  font-family: 'Yellowtail', cursive;
+  padding-top: 15%
+}
+
+h2 {
+  color: white;
+  width:100%;
+  text-align: center;
+  position: absolute;
+  letter-spacing: 5px;
+  font-size: 60px;
+  font-family: 'Yellowtail', cursive;
+}
+
+h3 {
+  color: #95c7c8;
+  font-family: 'Yellowtail', cursive;
+  font-size: 50;
+}
+
+#color-header {
+  color: #95c7c8;
+}
+
+
+
+/*"The Result"---PROFILE PICTURES*/
+
+.profile-picture {
+  display: inline-block;
+}
+
+.profile-picture img {
+  width: 300px;
+  margin: 30px;
+  float: left;
+  border-radius: 100%;
+}
+
+.profile-wrap {
+  margin: 0 auto;
+  padding-top: 15%;
 }
 
 /*Front page*/
@@ -48,6 +78,31 @@ h1,h2 {
 #frontpage {
   width:100%;
   height:100%;
+  position: fixed;
+  top: 0;
+  z-index: 0;
+}
+
+/*---THIS IS THE BACKGROUNDS!!!!!!*/
+
+#bg1 {
+  background-color: #bdb2ac;
+  z-index: 1;
+  position:relative;
+}
+
+#bg2 {
+  background-color: white;
+  z-index: 1;
+  position:relative;
+  text-align: center;
+}
+
+.background {
+  height:100%;
+  width: 100%;
+  background-size: cover;
+  float: left;
 }
 
 #blue {
@@ -66,7 +121,7 @@ h1,h2 {
   background-color: #9fac90;  
 }
 
-/*BLUE BOX*/
+/*ALL BOXES BOX*/
 
 .box {
   width:25%;
@@ -74,7 +129,4 @@ h1,h2 {
   float:left;
 }
 
-
-
-/*BEIGE BOX*/
 
