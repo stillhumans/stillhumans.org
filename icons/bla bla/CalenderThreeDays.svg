@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Calender</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Calender" sketch:type="MSArtboardGroup">
+            <g id="Calender-3-days" sketch:type="MSLayerGroup" transform="translate(17.000000, 15.000000)">
+                <g id="Calender">
+                    <path d="M9.26464844,27 L0.999470771,27 C0.447478306,27 0,26.5538914 0,26.0070346 L0,0.992965445 C0,0.444565773 0.455262884,0 0.995457033,0 L24.004543,0 C24.5543187,0 25,0.441022621 25,0.993654418 L25,13.7223307" id="Rectangle-14" stroke="#000000" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                    <path d="M0.5,7.5 L24.5,7.5" id="Line" stroke="#000000" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    <g id="Oval-7-+-Oval-7-Copy" transform="translate(6.000000, 3.000000)" stroke="#000000" sketch:type="MSShapeGroup">
+                        <circle id="Oval-7" cx="13" cy="1" r="1"></circle>
+                        <circle id="Oval-7-Copy" cx="1" cy="1" r="1"></circle>
+                    </g>
+                    <text id="3" sketch:type="MSTextLayer" font-family="Hannotate SC" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="9" y="21">3</tspan>
+                    </text>
+                </g>
+                <g id="day-2" transform="translate(29.589886, 21.447018) rotate(-17.000000) translate(-29.589886, -21.447018) translate(16.589886, 10.947018)">
+                    <path d="M0.106179649,11.601305 L0.106179649,1.98687809 C0.106179649,1.43117665 0.550044471,1.09165782 1.08274406,1.22483272 L2.10617965,1.48069162 L4.10617965,0.980691618 L6.10617965,1.48069162 L7.59076525,0.980691618 L9.00979,1.48069162 L10.6696965,0.980691618 L11.9668134,1.48069162 L13.8169548,0.980691618 L15.9450308,1.48069162 L18.2611635,0.980691618 L20.3522274,1.48069162 L21.6961126,0.980691618 L23.1894807,1.48069162 L24.1478302,1.23069162 C24.677112,1.09262043 25.1061796,1.43599719 25.1061796,1.97249473 L25.1061796,19.9888885 C25.1061796,20.5366462 24.6519864,20.9806916 24.1074429,20.9806916 L13.2139423,20.9806916" id="Rectangle-15" stroke="#000000" sketch:type="MSShapeGroup"></path>
+                    <text id="2" sketch:type="MSTextLayer" font-family="Hannotate SC" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="9.10617965" y="14.9806916">2</tspan>
+                    </text>
+                </g>
+                <g id="day-1" transform="translate(19.321301, 36.250988) rotate(12.000000) translate(-19.321301, -36.250988) translate(6.321301, 25.750988)">
+                    <path d="M0.737059484,1.18607983 C0.737059484,0.638322095 1.18092431,0.305242923 1.71362389,0.43841782 L2.73705948,0.694276718 L4.73705948,0.194276718 L6.73705948,0.694276718 L8.22164508,0.194276718 L9.64066983,0.694276718 L11.3005763,0.194276718 L12.5976933,0.694276718 L14.4478347,0.194276718 L16.5759107,0.694276718 L18.8920433,0.194276718 L20.9831072,0.694276718 L22.3269924,0.194276718 L23.8203605,0.694276718 L24.77871,0.444276718 C25.3079918,0.30620553 25.7370595,0.649582294 25.7370595,1.18607983 L25.7370595,19.2024736 C25.7370595,19.7502313 25.2817966,20.1942767 24.7416025,20.1942767 L1.73251652,20.1942767 C1.18274078,20.1942767 0.737059484,19.7389711 0.737059484,19.2024736 L0.737059484,1.18607983 Z" id="Rectangle-15" stroke="#000000" sketch:type="MSShapeGroup"></path>
+                    <text id="1" sketch:type="MSTextLayer" font-family="Hannotate SC" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="9.73705948" y="14.1942767">1</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Calender-3-days-Copy" sketch:type="MSLayerGroup" transform="translate(17.000000, 15.000000)">
+                <g id="Calender">
+                    <path d="M9.26464844,27 L0.999470771,27 C0.447478306,27 0,26.5538914 0,26.0070346 L0,0.992965445 C0,0.444565773 0.455262884,0 0.995457033,0 L24.004543,0 C24.5543187,0 25,0.441022621 25,0.993654418 L25,13.7223307" id="Rectangle-14" stroke="#000000" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                    <path d="M0.5,7.5 L24.5,7.5" id="Line" stroke="#000000" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    <g id="Oval-7-+-Oval-7-Copy" transform="translate(6.000000, 3.000000)" stroke="#000000" sketch:type="MSShapeGroup">
+                        <circle id="Oval-7" cx="13" cy="1" r="1"></circle>
+                        <circle id="Oval-7-Copy" cx="1" cy="1" r="1"></circle>
+                    </g>
+                    <text id="3" sketch:type="MSTextLayer" font-family="Hannotate SC" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="9" y="21">3</tspan>
+                    </text>
+                </g>
+                <g id="day-2" transform="translate(29.589886, 21.447018) rotate(-17.000000) translate(-29.589886, -21.447018) translate(16.589886, 10.947018)">
+                    <path d="M0.106179649,11.014246 L0.106179649,1.98687809 C0.106179649,1.43117665 0.550044471,1.09165782 1.08274406,1.22483272 L2.10617965,1.48069162 L4.10617965,0.980691618 L6.10617965,1.48069162 L7.59076525,0.980691618 L9.00979,1.48069162 L10.6696965,0.980691618 L11.9668134,1.48069162 L13.8169548,0.980691618 L15.9450308,1.48069162 L18.2611635,0.980691618 L20.3522274,1.48069162 L21.6961126,0.980691618 L23.1894807,1.48069162 L24.1478302,1.23069162 C24.677112,1.09262043 25.1061796,1.43599719 25.1061796,1.97249473 L25.1061796,19.9888885 C25.1061796,20.5366462 24.6519864,20.9806916 24.1074429,20.9806916 L13.8000533,20.9806916" id="Rectangle-15" stroke="#000000" sketch:type="MSShapeGroup"></path>
+                    <text id="2" sketch:type="MSTextLayer" font-family="Hannotate SC" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="9.10617965" y="14.9806916">2</tspan>
+                    </text>
+                </g>
+                <g id="day-1" transform="translate(19.321301, 36.250988) rotate(12.000000) translate(-19.321301, -36.250988) translate(6.321301, 25.750988)">
+                    <path d="M0.737059484,1.18607983 C0.737059484,0.638322095 1.18092431,0.305242923 1.71362389,0.43841782 L2.73705948,0.694276718 L4.73705948,0.194276718 L6.73705948,0.694276718 L8.22164508,0.194276718 L9.64066983,0.694276718 L11.3005763,0.194276718 L12.5976933,0.694276718 L14.4478347,0.194276718 L16.5759107,0.694276718 L18.8920433,0.194276718 L20.9831072,0.694276718 L22.3269924,0.194276718 L23.8203605,0.694276718 L24.77871,0.444276718 C25.3079918,0.30620553 25.7370595,0.649582294 25.7370595,1.18607983 L25.7370595,19.2024736 C25.7370595,19.7502313 25.2817966,20.1942767 24.7416025,20.1942767 L1.73251652,20.1942767 C1.18274078,20.1942767 0.737059484,19.7389711 0.737059484,19.2024736 L0.737059484,1.18607983 Z" id="Rectangle-15" stroke="#000000" sketch:type="MSShapeGroup"></path>
+                    <text id="1" sketch:type="MSTextLayer" font-family="Hannotate SC" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="9.73705948" y="14.1942767">1</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

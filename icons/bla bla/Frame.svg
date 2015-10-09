@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Frame</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Frame" sketch:type="MSArtboardGroup" stroke="#000000">
+            <rect id="Rectangle-21" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" x="21" y="15" width="37.5" height="50" rx="1"></rect>
+            <rect id="Rectangle-21-Copy" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" x="23" y="17" width="33.5" height="46"></rect>
+            <path d="M31,62.0625 L31,48.0030406 C31,43.5830833 34.5777418,40 38.9998866,40 L41.0001134,40 C45.4183288,40 49,43.5787369 49,48.0030973 L49,62.019043" id="Rectangle-23" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval-15" stroke-linecap="square" sketch:type="MSShapeGroup" cx="40" cy="32" r="7"></circle>
+        </g>
+    </g>
+</svg>

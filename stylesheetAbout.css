@@ -1,0 +1,152 @@
+@import "blue.css";
+@import "beige.css";
+@import "grey.css";
+@import "green.css";
+
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  width:100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+/*Background*/
+
+#bg1 {
+  background-image: url("yoda picture.jpg");
+}
+
+#bg2 {
+  background-color: #fff;
+}
+
+#bg3 {
+  background-color: #80b0b0;
+}
+
+.background {
+  height:100%;
+  width: 100%;
+  background-size: cover;
+  float: left;
+}
+
+/*Headtext*/ 
+h1,h2 {
+  color: white;
+  text-align: center;
+  font-family: helvetica;
+}
+
+.header1 {
+  color: #000;
+  text-align: center;
+  font-family: helvetica;
+  font-weight: 400;
+}
+
+.header2 {
+  color: #000;
+  text-align: center;
+  font-family: helvetica;
+}
+
+/*Front page*/
+
+.window {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#frontpage {
+  width:100%;
+  height:100%;
+}
+
+#blue {
+  background-color: #80b0b0;
+}
+
+#beige {
+  background-color: #bdb2ac;
+}
+
+#grey {
+  background-color: #979998;
+}
+
+#green {
+  background-color: #9fac90;  
+}
+
+/* About page */
+
+.column1 {
+  float: left;
+  width: 21%;
+  margin: 2%;
+}
+
+.column2 {
+  float: left;
+  width: 21%;
+  margin: 2%;
+}
+
+.column3 {
+  float: left;
+  width: 21%;
+  margin: 2%;
+}
+
+.column4 {
+  float: left;
+  width: 21%;
+  margin: 2%;
+}
+
+.clearBoth {
+  clear: both;
+}
+
+#bg1 p {
+  text-align: center;
+  font-weight: 400;
+}
+
+#bg1 img {
+  text-align:center;
+  width:50%;
+  display:block;
+  margin:auto;
+}
+
+.wrapper {
+  height: 100%;
+  width: 90%;
+  margin: 0px auto;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.wrapperForColumns {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+}
+
+/*BLUE BOX*/
+
+.box {
+  width:25%;
+  height: 25%;
+  float:left;
+}
+
+
+
+/*BEIGE BOX*/
+

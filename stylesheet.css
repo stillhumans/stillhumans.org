@@ -13,6 +13,7 @@ body, html {
 
 body {
   margin-top: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*HEADLINES*/ 
@@ -34,6 +35,8 @@ h2 {
   letter-spacing: 5px;
   font-size: 60px;
   font-family: 'Yellowtail', cursive;
+  margin: 0;
+  padding: 0.83em 0;
 }
 
 h3 {
@@ -44,6 +47,80 @@ h3 {
 
 #color-header {
   color: #95c7c8;
+}
+
+
+
+/*"The Prodject"---ICONS*/
+
+.column1 {
+  float: left;
+  width: 21%;
+  margin: 2%;
+  opacity: 0;
+  animation: fadeIn 1s ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.column2 {
+  float: left;
+  width: 21%;
+  margin: 2%;
+}
+
+.column3 {
+  float: left;
+  width: 21%;
+  margin: 2%;
+}
+
+.column4 {
+  float: left;
+  width: 21%;
+  margin: 2%;
+}
+
+.clearBoth {
+  clear: both;
+}
+
+#bg1 p {
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+
+#bg1 img {
+  text-align:center;
+  width:50%;
+  display:block;
+  margin:auto;
+}
+
+.wrapper {
+  height: 100%;
+  width: 90%;
+  margin: 0px auto;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.wrapperForColumns {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-45%);
 }
 
 
