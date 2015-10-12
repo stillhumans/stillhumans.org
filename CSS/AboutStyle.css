@@ -62,18 +62,57 @@ p{
 }
 
 #info{
-	width: 780px;
-	height: 100%;
-	margin: 47px 122px 47px 122px;
+	width: 100%;
+	margin: 47px auto;
 }
 .left-c{
-	width: 480px;
+	width: 50%;
 	float: left;
 	display: inline-block;
+	margin-left: 129px;
+	margin-right: 60px;
 }
 .right-c{
 	display: inline-block;
 	float: right;
-	text-align: center;
 	width: 240px; 
+	margin-right: 129px;
+}
+.right-c h3{
+	text-align: center;
+}
+#grid{
+	list-style: none;
+    padding: 0 0 50px 0;
+    margin: 0 auto;
+}
+
+Clear floats 
+#grid:before, 
+#grid:after { 
+    content: " "; 
+    display: table; 
+}
+ 
+#grid:after { 
+    clear: both; 
+}
+
+#grid li {
+    width: 33.3%;
+    float: left;
+    height: 299px;
+    text-align: center;
+}
+
+.g-thumb {
+    padding: 30px 0 0 0;
+    display: block;
+}
+
+#grid .g-label {
+    margin: 20px 0 10px 0;
+    padding: 20px 0 0 0;
+    font-size: 2em;
+    position: relative;
 }
