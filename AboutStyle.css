@@ -12,16 +12,33 @@ h2{
 	font-family: 'Arial', 'sans serif';
 	font-size: 22px;
 }
+h3{
+	font-family: 'Arial', 'sans serif';
+	font-size: 22px;
+}
+hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+	margin:o auto;
+	width: 823px;
+}
+p{
+	font-family: 'Arial', 'sans serif';
+	font-size: 14px;
+	line-height: 32px;
+	color: #444444;
+}
 #nav-wrap{
 	width:100%;
 	height: 79px;
 	background-color: #5B7C7B;
+	text-align: center;
 }
 #nav-wrap h1{
 	width: 353px;
 	display: inline-block;
-	float: left;
-	text-align: center;
 }
 .nav-links{
 	text-decoration: none;
@@ -32,10 +49,31 @@ h2{
 #nav-wrap #gallery{
 	float:left;
 	margin-left: 129px;
-	width: 90px
 }
 #nav-wrap #about{
 	float: right;
 	margin-right: 129px;
-	width: 90px;
+}
+#header{
+	text-align: center;
+}
+#header h3{
+	margin-top: 47px;
+}
+
+#info{
+	width: 780px;
+	height: 100%;
+	margin: 47px 122px 47px 122px;
+}
+.left-c{
+	width: 480px;
+	float: left;
+	display: inline-block;
+}
+.right-c{
+	display: inline-block;
+	float: right;
+	text-align: center;
+	width: 240px; 
 }
