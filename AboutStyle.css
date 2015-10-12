@@ -1,0 +1,41 @@
+body{
+	margin:0;
+}
+h1{
+	font-family: 'Arial', "sans serif";
+	font-size: 46px;
+	font-weight: 900;
+	color: white;
+	margin: 0;
+}
+h2{
+	font-family: 'Arial', 'sans serif';
+	font-size: 22px;
+}
+#nav-wrap{
+	width:100%;
+	height: 79px;
+	background-color: #5B7C7B;
+}
+#nav-wrap h1{
+	width: 353px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+.nav-links{
+	text-decoration: none;
+	width: 90px;
+	color: #7FB0AF;
+	display: inline-block;
+}
+#nav-wrap #gallery{
+	float:left;
+	margin-left: 129px;
+	width: 90px
+}
+#nav-wrap #about{
+	float: right;
+	margin-right: 129px;
+	width: 90px;
+}
