@@ -4,6 +4,7 @@
 @import "green.css";
 
 @import url(https://fonts.googleapis.com/css?family=Yellowtail);
+
 body, html {
   width:100%;
   height: 100%;
@@ -23,8 +24,8 @@ h1 {
   text-align: center;
   position: absolute;
   letter-spacing: 5px;
-  font-size: 80px;
-  font-family: 'Yellowtail', cursive;
+  font-size: 100px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   padding-top: 15%
 }
 
@@ -34,19 +35,54 @@ h2 {
   text-align: center;
   letter-spacing: 5px;
   font-size: 60px;
-  font-family: 'Yellowtail', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   margin: 0;
   padding: 0.83em 0;
 }
 
 h3 {
-  color: #9fac90;
-  font-family: 'Yellowtail', cursive;
+  color: #bdb2ac;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 40px;
 }
 
 #color-header {
-  color: #95c7c8;
+  color: #bdb2ac;
+}
+
+.about-text {
+  margin: 0 auto;
+  text-align: left;
+  width: 50%;
+  color: white;
+  font-size: 13px;
+  max-width: 800px;
+  line-height: 150%;
+}
+
+/*CONTACT INFORMATION CSS*/ 
+
+.person-info {
+  font-size: 13px;
+  color: white;
+  margin: 10px;
+  float: left;
+  text-align: left;
+
+}
+.person-info a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  margin: 0 auto;
+  color: white;
+}
+
+.contact h4 {
+  margin-bottom: 2px;
+
 }
 
 
@@ -161,13 +197,20 @@ h3 {
 /*---THIS IS THE BACKGROUNDS!!!!!!*/
 
 #bg1 {
-  background-color: #bdb2ac;
+  background-color: #80b0b0;
   z-index: 1;
   position:relative;
 }
 
 #bg2 {
   background-color: white;
+  z-index: 1;
+  position:relative;
+  text-align: center;
+}
+
+#bg3 {
+  background-color: #979998;
   z-index: 1;
   position:relative;
   text-align: center;
