@@ -1,20 +1,58 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?prfrpj');
+	src:url('../fonts/icomoon.eot?prfrpj#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?prfrpj') format('truetype'),
+		url('../fonts/icomoon.woff?prfrpj') format('woff'),
+		url('../fonts/icomoon.svg?prfrpj#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail4:before {
+	content: "\e800";
+}
+.icon-facebook3:before {
+	content: "\e801";
+}
+.icon-twitter3:before {
+	content: "\e802";
+}
 body{
 	margin:0;
 }
 h1{
 	font-family: 'Arial', "sans serif";
-	font-size: 46px;
+	font-size: 42px;
 	font-weight: 900;
 	color: white;
 	margin: 0;
+	line-height: 79px;
 }
 h2{
 	font-family: 'Arial', 'sans serif';
 	font-size: 22px;
+	margin: 0;
+	line-height: 79px;
 }
 h3{
 	font-family: 'Arial', 'sans serif';
-	font-size: 22px;
+	font-size: 26px;
+	color: #A09892;
 }
 hr{
 	display: block;
@@ -26,16 +64,18 @@ hr{
 }
 p{
 	font-family: 'Arial', 'sans serif';
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 32px;
 	color: #444444;
 }
 #nav-wrap{
 	width:100%;
 	height: 79px;
-	background-color: #5B7C7B;
+	background-color: #93C9C7;
 	text-align: center;
+	position: relative;
 }
+
 #nav-wrap h1{
 	width: 353px;
 	display: inline-block;
@@ -43,7 +83,7 @@ p{
 .nav-links{
 	text-decoration: none;
 	width: 90px;
-	color: #7FB0AF;
+	color: #5B7C7C;
 	display: inline-block;
 }
 #nav-wrap #gallery{
@@ -81,10 +121,18 @@ p{
 .right-c h3{
 	text-align: center;
 }
+.links{
+	text-align: center;
+	font-size: 36px;
+	color: #5B7C7C;
+	letter-spacing: 10px;
+}
 #grid{
 	list-style: none;
     padding: 0 0 50px 0;
     margin: 0 auto;
+    clear: both;
+    width: 100%;
 }
 
 Clear floats 
