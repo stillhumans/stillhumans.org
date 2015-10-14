@@ -169,16 +169,22 @@ body, html{
 	#profile-bar{ height:80px; }
 	.slideshow{ padding-top:90px; }
 	.profile-description{
-		font-size:12px;
-		line-height:14px;
-		margin-left:80px;
-		display:none;
+		margin-left:0;
+		text-align:center;
+		width:100%;
+		
+	}
+	.profile-description .text{ display:none; }
+	.profile-description .name{ 
+		font-size:18px;
+		line-height:22px; 
 	}
 	.profile-image{
 		width:60px;
 		height:60px;
 		left:10px;	
 	}
+	.close{ width:20px; height:20px; }
 	.scroll-icon{
 		width:70px;
 		height:70px;
