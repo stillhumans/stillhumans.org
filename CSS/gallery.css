@@ -8,7 +8,9 @@ body, html{
 .slideshow {
 	height:100%;
 	width:100%;
-	overflow: hidden;	
+	overflow: hidden;
+	padding-top:110px;
+	box-sizing:border-box;
 }
 
 .scroll-hijack { height: 100%; }
@@ -21,15 +23,18 @@ body, html{
 }
 
 .content {
+	position:relative;
 	background:no-repeat center center;
 	background-size:cover;
 	color:white;
+	font:14px/16px normal Arial;
 }
 
 .slide {
-	overflow: hidden;
 	position: absolute;
+	overflow: hidden;
 	width: 100%;
+	height:100%;
 	text-align:center;
 }
 .slide.out {
@@ -89,8 +94,6 @@ body, html{
 	position: relative;
 	width: 100%;
 	height: 100%;
-	padding-top:110px;
-	box-sizing:border-box;
 }
 
 .color-bar{
