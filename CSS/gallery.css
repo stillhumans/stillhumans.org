@@ -13,12 +13,6 @@ body, html{
 
 .scroll-hijack { height: 100%; }
 
-.slides {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-}
-
 .slide,
 .content {
 	height: 100%;
@@ -57,7 +51,75 @@ body, html{
 	display:inline-block;
 	padding:10px;
 }
+#profile-bar{
+	position:absolute;
+	width:100%;
+	height:100px;
+	background:rgba(255,255,255,1.00);	
+}
+.profile-description{
+	position:absolute;
+	z-index:1;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+			transform:translateY(-50%);
+	margin-left:120px;
+	max-width:450px;
+	font-size:14px;
+	line-height:16px;
+	font-family:Arial;	
+	padding-right:20px;
+}
+.profile-image{
+	position:absolute;
+	z-index:1;
+	top:50%;
+	left:20px;
+	-webkit-transform:translateY(-50%);
+			transform:translateY(-50%);
+	
+	width:80px;
+	height:80px;
+	background:no-repeat center center;
+	background-size:cover;
+	border-radius:100%;	
+}
 
+.slides {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding-top:110px;
+	box-sizing:border-box;
+}
+
+.color-bar{
+	position:absolute;
+	bottom:-10px;
+	width:100%;	
+	height:10px;
+	background:red;
+}
+.color-bar .box{ width:6.25%; height:100%; float:left; }
+.color-bar .box.nr1{ background:#6e9695; }
+.color-bar .box.nr2{ background:#80b0b0; }
+.color-bar .box.nr3{ background:#5c7b7d; }
+.color-bar .box.nr4{ background:#95c7c8; }
+
+.color-bar .box.nr5{ background:#a19893; }
+.color-bar .box.nr6{ background:#6d6865; }
+.color-bar .box.nr7{ background:#8a837d; }
+.color-bar .box.nr8{ background:#bdb2ac; }
+
+.color-bar .box.nr9{ background:#afb3b2; }
+.color-bar .box.nr10{ background:#7d7f7e; }
+.color-bar .box.nr11{ background:#666867; }
+.color-bar .box.nr12{ background:#979998; }
+
+.color-bar .box.nr13{ background:#707863; }
+.color-bar .box.nr14{ background:#b7c4a6; }
+.color-bar .box.nr15{ background:#9fac90; }
+.color-bar .box.nr16{ background:#879179; }
 
 @media (max-width:1024px){
 	.slide.out {
@@ -67,6 +129,20 @@ body, html{
 	.slide.out .content {
 		-webkit-transform: translate3d(100%, 0, 0);
 			  transform: translate3d(100%, 0, 0);
+	}	
+	#profile-bar{
+		height:80px;
+	}
+	.slides{ padding-top:90px; }
+	.profile-description{
+		font-size:12px;
+		line-height:14px;
+		margin-left:80px;
+	}
+	.profile-image{
+		width:60px;
+		height:60px;
+		left:10px;	
 	}
 }
 
