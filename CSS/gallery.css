@@ -74,6 +74,7 @@ body, html{
 	line-height:16px;
 	font-family:Arial;	
 	padding-right:20px;
+	box-sizing:border-box;
 }
 .profile-image{
 	position:absolute;
