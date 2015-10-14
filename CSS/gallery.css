@@ -162,6 +162,8 @@ body, html{
 		left:10px;	
 	}
 	.scroll-icon{
+		width:70px;
+		height:70px;
 		background-image:url(../images/slide.svg); 
 	}
 }
