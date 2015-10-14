@@ -105,7 +105,7 @@ body, html{
 	z-index:2000;
 	width:100px;
 	height:100px;
-	background:url(../images/scroll.svg) no-repeat center center;
+	background:url(../Images/scroll.svg) no-repeat center center;
 	opacity:0;
 	-webkit-transition:opacity 0.2s ease-out;
 			transition:opacity 0.2s ease-out;
@@ -126,7 +126,7 @@ body, html{
 	overflow:hidden;
 	text-indent:-1000px;
 	display:block;
-	background:url(../images/close.svg) no-repeat center center;
+	background:url(../Images/close.svg) no-repeat center center;
 	opacity:0.2;
 }
 
@@ -189,7 +189,7 @@ body, html{
 	.scroll-icon{
 		width:70px;
 		height:70px;
-		background-image:url(../images/slide.svg); 
+		background-image:url(../Images/slide.svg); 
 	}
 }
 
