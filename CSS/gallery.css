@@ -110,7 +110,24 @@ body, html{
 			transition:opacity 0.2s ease-out;
 }
 .scroll-icon.fadein{ opacity:1; }
-
+.close{
+	position:absolute;
+	z-index:1;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+			transform:translateY(-50%);
+	right:20px;
+	text-decoration:none;
+	font:20px/20px normal Arial;
+	color:red;	
+	width:30px;
+	height:30px;
+	overflow:hidden;
+	text-indent:-1000px;
+	display:block;
+	background:url(../images/close.svg) no-repeat center center;
+	opacity:0.2;
+}
 
 .color-bar{
 	position:absolute;
@@ -155,6 +172,7 @@ body, html{
 		font-size:12px;
 		line-height:14px;
 		margin-left:80px;
+		display:none;
 	}
 	.profile-image{
 		width:60px;
