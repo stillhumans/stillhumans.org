@@ -21,6 +21,7 @@ $(document).ready(function(e) {
 		}
 
 		function next() {
+			$('.scroll-icon').removeClass('fadein');
 			if (currentIndex < $slides.length - 1) {
 				isTransitioning = true;
 				$slides.eq(currentIndex).one(transitionEnd(),   function () {
@@ -70,6 +71,10 @@ $(document).ready(function(e) {
  
 		// Initializes the component/
 		api.init = function () {
+			setTimeout(function(){
+				$('.scroll-icon').addClass('fadein');
+			}, 1000);
+			
 			console.log('init - found' ,$slides.length, 'slides');
 			
 			$window.on("DOMMouseScroll mousewheel", onMouseWheel);
