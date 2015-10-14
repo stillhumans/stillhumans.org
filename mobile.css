@@ -1,0 +1,58 @@
+@media (max-width: 767px) {
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  #blue .nr1, #blue .nr5, #blue .nr9, #blue .nr13  {
+    display: none;
+  }
+
+  #grey .nr1, #grey .nr5, #grey .nr9, #grey .nr13  {
+    display: none;
+  }
+
+  .column1 {
+    width: 80%;
+    margin: 2%;
+    float: none;
+  }
+    .column2 {
+    width: 80%;
+    margin: 2%;
+    float: none;
+  }
+
+  .column3 {
+    width: 80%;
+    margin: 2%;
+    float: none;
+  }
+
+  .column4 {
+    width: 80%;
+    margin: 2%;
+    float: none;
+  }
+
+  .wrapperforcolumns {
+    margin-top: 10%;
+  }
+
+  .profile-picture {
+    width: 70%;
+  }
+
+  .about-text {
+    width: 80%;
+  }
+
+  .background {
+    height: 150%;
+  }
+}
+
