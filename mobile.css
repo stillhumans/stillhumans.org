@@ -41,6 +41,9 @@
 
   .wrapperforcolumns {
     margin-top: 10%;
+    position: relative;
+    top: auto;
+    transform: none;
   }
 
   .profile-picture {
@@ -52,7 +55,7 @@
   }
 
   .background {
-    height: 150%;
+    height: auto;
   }
 }
 
