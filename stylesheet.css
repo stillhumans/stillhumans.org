@@ -69,8 +69,8 @@ h3 {
   display: inline-block;
   text-align: left;
   width: 200px;
-
 }
+
 .person-info a {
   text-decoration: none;
   color: white;
@@ -84,8 +84,10 @@ h3 {
 
 .contact h4 {
   margin-bottom: 2px;
+}
 
-
+.contact div {
+  
 }
 
 

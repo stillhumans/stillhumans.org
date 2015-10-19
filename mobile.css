@@ -21,7 +21,8 @@
     margin: 2%;
     float: none;
   }
-    .column2 {
+
+  .column2 {
     width: 80%;
     margin: 2%;
     float: none;
@@ -57,5 +58,10 @@
   .background {
     height: auto;
   }
+
+  .contact div {
+  width: 100%;
+  text-align: center;
+}
 }
 
