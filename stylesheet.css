@@ -95,7 +95,7 @@ h3 {
 /*"The Prodject"---ICONS*/
 
 .column1, .column2, .column3, .column4{
-	width: 270px;
+	width: 250px;
 	margin:0 10px;
 	display:inline-block;
 }
@@ -112,7 +112,7 @@ h3 {
 
 #bg1 img {
   text-align:center;
-  width:50%;
+  width:60%;
   display:block;
   margin:auto;
 }
