@@ -20,13 +20,21 @@ body {
 /*HEADLINES*/ 
 h1 {
   color: white;
-  width:100%;
   text-align: center;
-  position: absolute;
   letter-spacing: 5px;
   font-size: 100px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  padding-top: 15%
+}
+.headline{
+	position: absolute;
+	padding-top: 15%;
+	width:100%;
+	text-align:center;	
+}
+.headline h1{ margin:0; }
+.headline strong{
+	color:white;	
+	font:18px/20px normal 'Yanone Kaffeesatz';
 }
 
 h2 {
