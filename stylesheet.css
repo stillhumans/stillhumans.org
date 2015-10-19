@@ -13,7 +13,7 @@ body, html {
 }
 
 body {
-  margin-top: 100%;
+  margin-top: 100vh;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -92,44 +92,10 @@ h3 {
 
 /*"The Prodject"---ICONS*/
 
-.column1 {
-  float: left;
-  width: 21%;
-  margin: 2%;
-}
-  /*
-  opacity: 0;
-  animation: fadeIn 1s ease-out;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-*/
-
-.column2 {
-  float: left;
-  width: 21%;
-  margin: 2%;
-}
-
-.column3 {
-  float: left;
-  width: 21%;
-  margin: 2%;
-}
-
-.column4 {
-  float: left;
-  width: 21%;
-  margin: 2%;
+.column1, .column2, .column3, .column4{
+	width: 270px;
+	margin:0 10px;
+	display:inline-block;
 }
 
 .clearBoth {
@@ -162,7 +128,9 @@ h3 {
 .wrapperForColumns {
   position: absolute;
   top: 50%;
-  transform: translateY(-45%);
+  width:100%;
+  text-align:center;
+  transform: translateY(-50%);
 }
 
 
