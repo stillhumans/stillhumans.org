@@ -75,10 +75,11 @@
 	#profile-bar{ height:80px; }
 	.slideshow{ padding-top:90px; }
 	.profile-description{
-		margin-left:0;
+		margin:0 auto;
 		text-align:center;
 		width:100%;
-		
+		max-width:none;
+		padding:0;
 	}
 	.profile-description .text{ display:none; }
 	.profile-description .name{ 
