@@ -19,9 +19,17 @@
 #green .nr16 { background: #879179;}
 
 #green .nr1{
-  animation:dcolor1 19s ease-out infinite;
+  -webkit-animation:dcolor1 19s ease-out infinite;
+          animation:dcolor1 19s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor1 {
+  0%{ background: #707863; }
+  25%{ background: #879179; }
+  50%{ background: #b7c4a6; }
+  75%{ background: #9fac90; }
+  100%{ background: #707863; }
 }
 @keyframes dcolor1 {
   0%{ background: #707863; }
@@ -32,9 +40,17 @@
 }
 
 #green .nr2{
-  animation:dcolor2 15s ease-out infinite;
+  -webkit-animation:dcolor2 15s ease-out infinite;
+          animation:dcolor2 15s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor2 {
+  0%{ background: #b7c4a6; }
+  25%{ background: #707863; }
+  50%{ background: #879179; }
+  75%{ background: #9fac90; }
+  100%{ background: #b7c4a6; }
 }
 @keyframes dcolor2 {
   0%{ background: #b7c4a6; }
@@ -45,9 +61,17 @@
 }
 
 #green .nr3{
-  animation:dcolor3 10s ease-out infinite;
+  -webkit-animation:dcolor3 10s ease-out infinite;
+          animation:dcolor3 10s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor3 {
+  0%{ background: #9fac90; }
+  25%{ background: #b7c4a6; }
+  50%{ background: #707863; }
+  75%{ background: #879179; }
+  100%{ background: #9fac90; }
 }
 @keyframes dcolor3 {
   0%{ background: #9fac90; }
@@ -58,9 +82,17 @@
 }
 
 #green .nr4{
-  animation:dcolor4 14s ease-out infinite;
+  -webkit-animation:dcolor4 14s ease-out infinite;
+          animation:dcolor4 14s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor4 {
+  0%{ background: #879179; }
+  25%{ background: #9fac90; }
+  50%{ background: #707863; }
+  75%{ background: #b7c4a6; }
+  100%{ background: #879179; }
 }
 @keyframes dcolor4 {
   0%{ background: #879179; }
@@ -71,9 +103,17 @@
 }
 
 #green .nr5{
-  animation:dcolor5 12s ease-out infinite;
+  -webkit-animation:dcolor5 12s ease-out infinite;
+          animation:dcolor5 12s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor5 {
+  0%{ background: #b7c4a6; }
+  25%{ background: #707863; }
+  50%{ background: #879179; }
+  75%{ background: #9fac90; }
+  100%{ background: #b7c4a6; }
 }
 @keyframes dcolor5 {
   0%{ background: #b7c4a6; }
@@ -84,9 +124,17 @@
 }
 
 #green .nr6{
-  animation:dcolor6 15s ease-out infinite;
+  -webkit-animation:dcolor6 15s ease-out infinite;
+          animation:dcolor6 15s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor6 {
+  0%{ background: #9fac90; }
+  25%{ background: #b7c4a6; }
+  50%{ background: #707863; }
+  75%{ background: #879179; }
+  100%{ background: #9fac90; }
 }
 @keyframes dcolor6 {
   0%{ background: #9fac90; }
@@ -97,9 +145,17 @@
 }
 
 #green .nr7{
-  animation:dcolor7 14s ease-out infinite;
+  -webkit-animation:dcolor7 14s ease-out infinite;
+          animation:dcolor7 14s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor7 {
+  0%{ background: #707863; }
+  25%{ background: #879179; }
+  50%{ background: #b7c4a6; }
+  75%{ background: #9fac90; }
+  100%{ background: #707863; }
 }
 @keyframes dcolor7 {
   0%{ background: #707863; }
@@ -110,9 +166,17 @@
 }
 
 #green .nr8{
-  animation:dcolor8 15s ease-out infinite;
+  -webkit-animation:dcolor8 15s ease-out infinite;
+          animation:dcolor8 15s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor8 {
+  0%{ background: #879179; }
+  25%{ background: #9fac90; }
+  50%{ background: #707863; }
+  75%{ background: #b7c4a6; }
+  100%{ background: #879179; }
 }
 @keyframes dcolor8 {
   0%{ background: #879179; }
@@ -124,9 +188,17 @@
 
 
 #green .nr9{
-  animation:dcolor9 18s ease-out infinite;
+  -webkit-animation:dcolor9 18s ease-out infinite;
+          animation:dcolor9 18s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor9 {
+  0%{ background: #707863; }
+  25%{ background: #879179; }
+  50%{ background: #b7c4a6; }
+  75%{ background: #9fac90; }
+  100%{ background: #707863; }
 }
 @keyframes dcolor9 {
   0%{ background: #707863; }
@@ -137,9 +209,17 @@
 }
 
 #green .nr10{
-  animation:dcolor10 16s ease-out infinite;
+  -webkit-animation:dcolor10 16s ease-out infinite;
+          animation:dcolor10 16s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor10 {
+  0%{ background: #b7c4a6; }
+  25%{ background: #707863; }
+  50%{ background: #9fac90; }
+  75%{ background: #707863; }
+  100%{ background: #b7c4a6; }
 }
 @keyframes dcolor10 {
   0%{ background: #b7c4a6; }
@@ -150,9 +230,17 @@
 }
 
 #green .nr11{
-  animation:dcolor11 10s ease-out infinite;
+  -webkit-animation:dcolor11 10s ease-out infinite;
+          animation:dcolor11 10s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor11 {
+  0%{ background: #9fac90; }
+  25%{ background: #b7c4a6; }
+  50%{ background: #707863; }
+  75%{ background: #879179; }
+  100%{ background: #9fac90; }
 }
 @keyframes dcolor11 {
   0%{ background: #9fac90; }
@@ -163,9 +251,17 @@
 }
 
 #green .nr12{
-  animation:dcolor12 11s ease-out infinite;
+  -webkit-animation:dcolor12 11s ease-out infinite;
+          animation:dcolor12 11s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor12 {
+  0%{ background: #879179; }
+  25%{ background: #9fac90; }
+  50%{ background: #707863; }
+  75%{ background: #b7c4a6; }
+  100%{ background: #879179; }
 }
 @keyframes dcolor12 {
   0%{ background: #879179; }
@@ -176,9 +272,17 @@
 }
 
 #green .nr13{
-  animation:dcolor13 15s ease-out infinite;
+  -webkit-animation:dcolor13 15s ease-out infinite;
+          animation:dcolor13 15s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor13 {
+  0%{ background: #707863; }
+  25%{ background: #879179; }
+  50%{ background: #b7c4a6; }
+  75%{ background: #9fac90; }
+  100%{ background: #707863; }
 }
 @keyframes dcolor13 {
   0%{ background: #707863; }
@@ -189,9 +293,17 @@
 }
 
 #green .nr14{
-  animation:dcolor14 14s ease-out infinite;
+  -webkit-animation:dcolor14 14s ease-out infinite;
+          animation:dcolor14 14s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor14 {
+  0%{ background: #b7c4a6; }
+  25%{ background: #707863; }
+  50%{ background: #9fac90; }
+  75%{ background: #707863; }
+  100%{ background: #b7c4a6; }
 }
 @keyframes dcolor14 {
   0%{ background: #b7c4a6; }
@@ -202,9 +314,17 @@
 }
 
 #green .nr15{
-  animation:dcolor15 18s ease-out infinite;
+  -webkit-animation:dcolor15 18s ease-out infinite;
+          animation:dcolor15 18s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor15 {
+  0%{ background: #9fac90; }
+  25%{ background: #b7c4a6; }
+  50%{ background: #707863; }
+  75%{ background: #879179; }
+  100%{ background: #9fac90; }
 }
 @keyframes dcolor15 {
   0%{ background: #9fac90; }
@@ -215,9 +335,17 @@
 }
 
 #green .nr16{
-  animation:dcolor16 22s ease-out infinite;
+  -webkit-animation:dcolor16 22s ease-out infinite;
+          animation:dcolor16 22s ease-out infinite;
   
 
+}
+@-webkit-keyframes dcolor16 {
+  0%{ background: #879179; }
+  25%{ background: #9fac90; }
+  50%{ background: #707863; }
+  75%{ background: #b7c4a6; }
+  100%{ background: #879179; }
 }
 @keyframes dcolor16 {
   0%{ background: #879179; }

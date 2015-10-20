@@ -20,9 +20,17 @@
 
 
 #beige .nr1{
-  animation:bcolor1 18s ease-out infinite;
+  -webkit-animation:bcolor1 18s ease-out infinite;
+          animation:bcolor1 18s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor1 {
+  0%{ background: #a19893; }
+  25%{ background: #bdb2ac; }
+  50%{ background: #6d6865; }
+  75%{ background: #8a837d; }
+  100%{ background: #a19893; }
 }
 @keyframes bcolor1 {
   0%{ background: #a19893; }
@@ -33,9 +41,17 @@
 }
 
 #beige .nr2{
-  animation:bcolor2 13s ease-out infinite;
+  -webkit-animation:bcolor2 13s ease-out infinite;
+          animation:bcolor2 13s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor2 {
+  0%{ background: #6d6865; }
+  25%{ background: #a19893; }
+  50%{ background: #bdb2ac; }
+  75%{ background: #8a837d; }
+  100%{ background: #6d6865; }
 }
 @keyframes bcolor2 {
   0%{ background: #6d6865; }
@@ -46,9 +62,17 @@
 }
 
 #beige .nr3{
-  animation:bcolor3 8s ease-out infinite;
+  -webkit-animation:bcolor3 8s ease-out infinite;
+          animation:bcolor3 8s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor3 {
+  0%{ background: #8a837d; }
+  25%{ background: #6d6865; }
+  50%{ background: #a19893; }
+  75%{ background: #bdb2ac; }
+  100%{ background: #8a837d; }
 }
 @keyframes bcolor3 {
   0%{ background: #8a837d; }
@@ -59,9 +83,17 @@
 }
 
 #beige .nr4{
-  animation:bcolor4 12s ease-out infinite;
+  -webkit-animation:bcolor4 12s ease-out infinite;
+          animation:bcolor4 12s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor4 {
+  0%{ background: #bdb2ac; }
+  25%{ background: #8a837d; }
+  50%{ background: #a19893; }
+  75%{ background: #6d6865; }
+  100%{ background: #bdb2ac; }
 }
 @keyframes bcolor4 {
   0%{ background: #bdb2ac; }
@@ -72,9 +104,17 @@
 }
 
 #beige .nr5{
-  animation:bcolor5 10s ease-out infinite;
+  -webkit-animation:bcolor5 10s ease-out infinite;
+          animation:bcolor5 10s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor5 {
+  0%{ background: #6d6865; }
+  25%{ background: #a19893; }
+  50%{ background: #bdb2ac; }
+  75%{ background: #8a837d; }
+  100%{ background: #6d6865; }
 }
 @keyframes bcolor5 {
   0%{ background: #6d6865; }
@@ -85,9 +125,17 @@
 }
 
 #beige .nr6{
-  animation:bcolor6 15s ease-out infinite;
+  -webkit-animation:bcolor6 15s ease-out infinite;
+          animation:bcolor6 15s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor6 {
+  0%{ background: #8a837d; }
+  25%{ background: #6d6865; }
+  50%{ background: #a19893; }
+  75%{ background: #bdb2ac; }
+  100%{ background: #8a837d; }
 }
 @keyframes bcolor6 {
   0%{ background: #8a837d; }
@@ -98,9 +146,17 @@
 }
 
 #beige .nr7{
-  animation:bcolor7 11s ease-out infinite;
+  -webkit-animation:bcolor7 11s ease-out infinite;
+          animation:bcolor7 11s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor7 {
+  0%{ background: #a19893; }
+  25%{ background: #bdb2ac; }
+  50%{ background: #6d6865; }
+  75%{ background: #8a837d; }
+  100%{ background: #a19893; }
 }
 @keyframes bcolor7 {
   0%{ background: #a19893; }
@@ -111,9 +167,17 @@
 }
 
 #beige .nr8{
-  animation:bcolor8 10s ease-out infinite;
+  -webkit-animation:bcolor8 10s ease-out infinite;
+          animation:bcolor8 10s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor8 {
+  0%{ background: #bdb2ac; }
+  25%{ background: #8a837d; }
+  50%{ background: #a19893; }
+  75%{ background: #6d6865; }
+  100%{ background: #bdb2ac; }
 }
 @keyframes bcolor8 {
   0%{ background: #bdb2ac; }
@@ -125,9 +189,17 @@
 
 
 #beige .nr9{
-  animation:bcolor9 16s ease-out infinite;
+  -webkit-animation:bcolor9 16s ease-out infinite;
+          animation:bcolor9 16s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor9 {
+  0%{ background: #a19893; }
+  25%{ background: #bdb2ac; }
+  50%{ background: #6d6865; }
+  75%{ background: #8a837d; }
+  100%{ background: #a19893; }
 }
 @keyframes bcolor9 {
   0%{ background: #a19893; }
@@ -138,9 +210,17 @@
 }
 
 #beige .nr10{
-  animation:bcolor10 14s ease-out infinite;
+  -webkit-animation:bcolor10 14s ease-out infinite;
+          animation:bcolor10 14s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor10 {
+  0%{ background: #6d6865; }
+  25%{ background: #a19893; }
+  50%{ background: #8a837d; }
+  75%{ background: #a19893; }
+  100%{ background: #6d6865; }
 }
 @keyframes bcolor10 {
   0%{ background: #6d6865; }
@@ -151,9 +231,17 @@
 }
 
 #beige .nr11{
-  animation:bcolor11 18s ease-out infinite;
+  -webkit-animation:bcolor11 18s ease-out infinite;
+          animation:bcolor11 18s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor11 {
+  0%{ background: #8a837d; }
+  25%{ background: #6d6865; }
+  50%{ background: #a19893; }
+  75%{ background: #bdb2ac; }
+  100%{ background: #8a837d; }
 }
 @keyframes bcolor11 {
   0%{ background: #8a837d; }
@@ -164,9 +252,17 @@
 }
 
 #beige .nr12{
-  animation:bcolor12 17s ease-out infinite;
+  -webkit-animation:bcolor12 17s ease-out infinite;
+          animation:bcolor12 17s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor12 {
+  0%{ background: #bdb2ac; }
+  25%{ background: #8a837d; }
+  50%{ background: #a19893; }
+  75%{ background: #6d6865; }
+  100%{ background: #bdb2ac; }
 }
 @keyframes bcolor12 {
   0%{ background: #bdb2ac; }
@@ -177,9 +273,17 @@
 }
 
 #beige .nr13{
-  animation:bcolor13 13s ease-out infinite;
+  -webkit-animation:bcolor13 13s ease-out infinite;
+          animation:bcolor13 13s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor13 {
+  0%{ background: #a19893; }
+  25%{ background: #bdb2ac; }
+  50%{ background: #6d6865; }
+  75%{ background: #8a837d; }
+  100%{ background: #a19893; }
 }
 @keyframes bcolor13 {
   0%{ background: #a19893; }
@@ -190,9 +294,17 @@
 }
 
 #beige .nr14{
-  animation:bcolor14 12s ease-out infinite;
+  -webkit-animation:bcolor14 12s ease-out infinite;
+          animation:bcolor14 12s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor14 {
+  0%{ background: #6d6865; }
+  25%{ background: #a19893; }
+  50%{ background: #8a837d; }
+  75%{ background: #a19893; }
+  100%{ background: #6d6865; }
 }
 @keyframes bcolor14 {
   0%{ background: #6d6865; }
@@ -203,9 +315,17 @@
 }
 
 #beige .nr15{
-  animation:bcolor15 16s ease-out infinite;
+  -webkit-animation:bcolor15 16s ease-out infinite;
+          animation:bcolor15 16s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor15 {
+  0%{ background: #8a837d; }
+  25%{ background: #6d6865; }
+  50%{ background: #a19893; }
+  75%{ background: #bdb2ac; }
+  100%{ background: #8a837d; }
 }
 @keyframes bcolor15 {
   0%{ background: #8a837d; }
@@ -216,9 +336,17 @@
 }
 
 #beige .nr16{
-  animation:bcolor16 20s ease-out infinite;
+  -webkit-animation:bcolor16 20s ease-out infinite;
+          animation:bcolor16 20s ease-out infinite;
   
 
+}
+@-webkit-keyframes bcolor16 {
+  0%{ background: #bdb2ac; }
+  25%{ background: #8a837d; }
+  50%{ background: #a19893; }
+  75%{ background: #6d6865; }
+  100%{ background: #bdb2ac; }
 }
 @keyframes bcolor16 {
   0%{ background: #bdb2ac; }

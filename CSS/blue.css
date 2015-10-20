@@ -20,8 +20,8 @@
 
 
 #blue .nr1{
-  animation:color1 18s ease-out infinite;
-
+	-webkit-animation:color1 18s ease-out infinite;
+			animation:color1 18s ease-out infinite;
 }
 @keyframes color1 {
   0%{ background: #6e9695; }
@@ -30,11 +30,17 @@
   75%{ background: #5c7b7d; }
   100%{ background: #6e9695; }
 }
+@-webkit-keyframes color1 {
+  0%{ background: #6e9695; }
+  25%{ background: #95c7c8; }
+  50%{ background: #80b0b0; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #6e9695; }
+}
 
 #blue .nr2{
-  animation:color2 13s ease-out infinite;
-  
-
+	-webkit-animation:color2 13s ease-out infinite;
+			animation:color2 13s ease-out infinite;
 }
 @keyframes color2 {
   0%{ background: #80b0b0; }
@@ -43,11 +49,26 @@
   75%{ background: #5c7b7d; }
   100%{ background: #80b0b0; }
 }
+@-webkit-keyframes color2 {
+  0%{ background: #80b0b0; }
+  25%{ background: #6e9695; }
+  50%{ background: #95c7c8; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #80b0b0; }
+}
 
 #blue .nr3{
-  animation:color3 8s ease-out infinite;
+  -webkit-animation:color3 8s ease-out infinite;
+          animation:color3 8s ease-out infinite;
   
 
+}
+@-webkit-keyframes color3 {
+  0%{ background: #5c7b7d; }
+  25%{ background: #80b0b0; }
+  50%{ background: #6e9695; }
+  75%{ background: #95c7c8; }
+  100%{ background: #5c7b7d; }
 }
 @keyframes color3 {
   0%{ background: #5c7b7d; }
@@ -58,9 +79,17 @@
 }
 
 #blue .nr4{
-  animation:color4 12s ease-out infinite;
+  -webkit-animation:color4 12s ease-out infinite;
+          animation:color4 12s ease-out infinite;
   
 
+}
+@-webkit-keyframes color4 {
+  0%{ background: #95c7c8; }
+  25%{ background: #5c7b7d; }
+  50%{ background: #6e9695; }
+  75%{ background: #80b0b0; }
+  100%{ background: #95c7c8; }
 }
 @keyframes color4 {
   0%{ background: #95c7c8; }
@@ -71,9 +100,17 @@
 }
 
 #blue .nr5{
-  animation:color5 10s ease-out infinite;
+  -webkit-animation:color5 10s ease-out infinite;
+          animation:color5 10s ease-out infinite;
   
 
+}
+@-webkit-keyframes color5 {
+  0%{ background: #80b0b0; }
+  25%{ background: #6e9695; }
+  50%{ background: #95c7c8; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #80b0b0; }
 }
 @keyframes color5 {
   0%{ background: #80b0b0; }
@@ -84,9 +121,17 @@
 }
 
 #blue .nr6{
-  animation:color6 15s ease-out infinite;
+  -webkit-animation:color6 15s ease-out infinite;
+          animation:color6 15s ease-out infinite;
   
 
+}
+@-webkit-keyframes color6 {
+  0%{ background: #5c7b7d; }
+  25%{ background: #80b0b0; }
+  50%{ background: #6e9695; }
+  75%{ background: #95c7c8; }
+  100%{ background: #5c7b7d; }
 }
 @keyframes color6 {
   0%{ background: #5c7b7d; }
@@ -97,9 +142,17 @@
 }
 
 #blue .nr7{
-  animation:color7 12s ease-out infinite;
+  -webkit-animation:color7 12s ease-out infinite;
+          animation:color7 12s ease-out infinite;
   
 
+}
+@-webkit-keyframes color7 {
+  0%{ background: #6e9695; }
+  25%{ background: #95c7c8; }
+  50%{ background: #80b0b0; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #6e9695; }
 }
 @keyframes color7 {
   0%{ background: #6e9695; }
@@ -110,9 +163,17 @@
 }
 
 #blue .nr8{
-  animation:color8 13s ease-out infinite;
+  -webkit-animation:color8 13s ease-out infinite;
+          animation:color8 13s ease-out infinite;
   
 
+}
+@-webkit-keyframes color8 {
+  0%{ background: #95c7c8; }
+  25%{ background: #5c7b7d; }
+  50%{ background: #6e9695; }
+  75%{ background: #80b0b0; }
+  100%{ background: #95c7c8; }
 }
 @keyframes color8 {
   0%{ background: #95c7c8; }
@@ -124,9 +185,17 @@
 
 
 #blue .nr9{
-  animation:color9 16s ease-out infinite;
+  -webkit-animation:color9 16s ease-out infinite;
+          animation:color9 16s ease-out infinite;
   
 
+}
+@-webkit-keyframes color9 {
+  0%{ background: #6e9695; }
+  25%{ background: #95c7c8; }
+  50%{ background: #80b0b0; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #6e9695; }
 }
 @keyframes color9 {
   0%{ background: #6e9695; }
@@ -137,9 +206,17 @@
 }
 
 #blue .nr10{
-  animation:color10 14s ease-out infinite;
+  -webkit-animation:color10 14s ease-out infinite;
+          animation:color10 14s ease-out infinite;
   
 
+}
+@-webkit-keyframes color10 {
+  0%{ background: #80b0b0; }
+  25%{ background: #6e9695; }
+  50%{ background: #5c7b7d; }
+  75%{ background: #6e9695; }
+  100%{ background: #80b0b0; }
 }
 @keyframes color10 {
   0%{ background: #80b0b0; }
@@ -150,9 +227,18 @@
 }
 
 #blue .nr11{
-  animation:color11 20s ease-out infinite;
-  animation-delay:1s;
+  -webkit-animation:color11 20s ease-out infinite;
+          animation:color11 20s ease-out infinite;
+  -webkit-animation-delay:1s;
+          animation-delay:1s;
 
+}
+@-webkit-keyframes color11 {
+  0%{ background: #5c7b7d; }
+  25%{ background: #80b0b0; }
+  50%{ background: #6e9695; }
+  75%{ background: #95c7c8; }
+  100%{ background: #5c7b7d; }
 }
 @keyframes color11 {
   0%{ background: #5c7b7d; }
@@ -163,9 +249,17 @@
 }
 
 #blue .nr12{
-  animation:color12 19s ease-out infinite;
+  -webkit-animation:color12 19s ease-out infinite;
+          animation:color12 19s ease-out infinite;
   
 
+}
+@-webkit-keyframes color12 {
+  0%{ background: #95c7c8; }
+  25%{ background: #5c7b7d; }
+  50%{ background: #6e9695; }
+  75%{ background: #80b0b0; }
+  100%{ background: #95c7c8; }
 }
 @keyframes color12 {
   0%{ background: #95c7c8; }
@@ -176,9 +270,17 @@
 }
 
 #blue .nr13{
-  animation:color13 15s ease-out infinite;
+  -webkit-animation:color13 15s ease-out infinite;
+          animation:color13 15s ease-out infinite;
   
 
+}
+@-webkit-keyframes color13 {
+  0%{ background: #6e9695; }
+  25%{ background: #95c7c8; }
+  50%{ background: #80b0b0; }
+  75%{ background: #5c7b7d; }
+  100%{ background: #6e9695; }
 }
 @keyframes color13 {
   0%{ background: #6e9695; }
@@ -189,9 +291,17 @@
 }
 
 #blue .nr14{
-  animation:color14 14s ease-out infinite;
+  -webkit-animation:color14 14s ease-out infinite;
+          animation:color14 14s ease-out infinite;
   
 
+}
+@-webkit-keyframes color14 {
+  0%{ background: #80b0b0; }
+  25%{ background: #6e9695; }
+  50%{ background: #5c7b7d; }
+  75%{ background: #6e9695; }
+  100%{ background: #80b0b0; }
 }
 @keyframes color14 {
   0%{ background: #80b0b0; }
@@ -202,9 +312,18 @@
 }
 
 #blue .nr15{
-  animation:color15 18s ease-out infinite;
-  animation-delay:1s;
+  -webkit-animation:color15 18s ease-out infinite;
+          animation:color15 18s ease-out infinite;
+  -webkit-animation-delay:1s;
+          animation-delay:1s;
 
+}
+@-webkit-keyframes color15 {
+  0%{ background: #5c7b7d; }
+  25%{ background: #80b0b0; }
+  50%{ background: #6e9695; }
+  75%{ background: #95c7c8; }
+  100%{ background: #5c7b7d; }
 }
 @keyframes color15 {
   0%{ background: #5c7b7d; }
@@ -215,9 +334,17 @@
 }
 
 #blue .nr16{
-  animation:color16 22s ease-out infinite;
+  -webkit-animation:color16 22s ease-out infinite;
+          animation:color16 22s ease-out infinite;
   
 
+}
+@-webkit-keyframes color16 {
+  0%{ background: #95c7c8; }
+  25%{ background: #5c7b7d; }
+  50%{ background: #6e9695; }
+  75%{ background: #80b0b0; }
+  100%{ background: #95c7c8; }
 }
 @keyframes color16 {
   0%{ background: #95c7c8; }
