@@ -86,6 +86,10 @@ $(document).ready(function(e) {
 			Hammer($el[0]).on("swiperight", function () {
 				setTimeout(prev, 0);
 			});
+			
+			$slides.each(function(index, element){
+				$(element).css('z-index', 100-index).find('.content').append('<span class="counter">' + (index+1) + '/' + $slides.length + '</span>');
+			});
 		};
 		return api;
 	};

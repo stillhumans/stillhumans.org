@@ -45,9 +45,6 @@ body, html{
 	-webkit-transform: translate3d(0, 100%, 0);
 		  transform: translate3d(0, 100%, 0);
 }
-.slide:nth-child(1) { z-index: 30; }
-.slide:nth-child(2) { z-index: 20; }
-.slide:nth-child(3) { z-index: 10; }
 
 
 .slide .counter{
