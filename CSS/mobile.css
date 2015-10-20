@@ -51,3 +51,43 @@
 	}
 }
 
+
+@media (max-width:1024px){
+	.slide.out {
+		-webkit-transform: translate3d(-100%, 0, 0);
+			  transform: translate3d(-100%, 0, 0);
+	}
+	.slide.out .content {
+		-webkit-transform: translate3d(100%, 0, 0);
+			  transform: translate3d(100%, 0, 0);
+	}	
+	#profile-bar{ height:80px; }
+	.slideshow{ padding-top:90px; }
+	.profile-description{
+		margin-left:0;
+		text-align:center;
+		width:100%;
+		
+	}
+	.profile-description .text{ display:none; }
+	.profile-description .name{ 
+		font-size:18px;
+		line-height:22px; 
+	}
+	.profile-image{
+		width:60px;
+		height:60px;
+		left:10px;	
+	}
+	.close{ width:20px; height:20px; }
+	.scroll-icon{
+		width:70px;
+		height:70px;
+		background-image:url(../images/slide.svg); 
+	}
+}
+
+
+
+
+
