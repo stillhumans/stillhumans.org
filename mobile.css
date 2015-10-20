@@ -4,18 +4,18 @@
 		position:relative;	
 	}
 	
-	h1 {
-		font-size: 50px;
+	.headline{
+		padding:0 10px;
+		top:50%;
+		margin-top:-20px;
+		transform:translateY(-100%);
+		box-sizing:border-box;
 	}
+	h1 { font-size: 50px; }
 	
-	h2 {
-		font-size: 50px;
-	}
+	h2 { font-size: 50px; }
 	
-	.box{
-		width:33.333%;	
-	}
-	#frontpage h1{ font-size:40px; position:absolute; top:50%; transform:translateY(-50%); margin:-50px 0 0 0; }
+	.box{ width:33.333%; }
 	.column1, .column2, .column3, .column4{
 		width: 200px;
 		display:block;
@@ -37,14 +37,16 @@
 	
 	.about-text {
 		width: 80%;
+		text-align:center;
 	}
 	
 	.background {
 		height: auto;
 	}
 	
-	.contact div {
+	.contact .person-info {
 		width: 100%;
+		margin:10px 0;
 		text-align: center;
 	}
 }
