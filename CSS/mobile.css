@@ -11,6 +11,7 @@
 
 /* --- PHONE & TABLET ----------------------------------- */
 @media (max-width: 1024px) {
+	.slideshow.desktop{ display:none;  }
 	body{ margin-top:0; }
 	#frontpage{
 		position:relative;	
