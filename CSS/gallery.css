@@ -110,7 +110,7 @@ body, html{
 .scroll-icon.fadein{ opacity:1; }
 .close{
 	position:absolute;
-	z-index:1;
+	z-index:999;
 	top:50%;
 	-webkit-transform:translateY(-50%);
 			transform:translateY(-50%);
